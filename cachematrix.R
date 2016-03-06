@@ -3,7 +3,7 @@
 ## 6-Mar-2016
 ## Christopher Murphy (chris@cwmurphy.com)
 ##
-## shout out to DanieleP the her excellent PA2-clarifying instructions available at: 
+## shout out to DanieleP for the excellent PA2-clarifying instructions available at: 
 ## (https://github.com/DanieleP/PA2-clarifying_instructions)
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
