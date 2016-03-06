@@ -2,6 +2,9 @@
 ## Coursera Programming R course
 ## 6-Mar-2016
 ## Christopher Murphy (chris@cwmurphy.com)
+##
+## shout out to DanieleP the her excellent PA2-clarifying instructions available at: 
+## (https://github.com/DanieleP/PA2-clarifying_instructions)
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 
@@ -29,8 +32,6 @@ cacheSolve <- function(x, ...) {
         return(m)
     }
     data <- x$get()
-    #m <- apply(data,c(1,2),solve)
-    # m <- solve(data) %*% data
     m <- solve(data)
     x$setinverse(m)
     m
